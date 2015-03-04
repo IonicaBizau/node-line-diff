@@ -1,0 +1,14 @@
+{
+  "name": "line-diff",
+  "version": "1.0.0",
+  "description": "Compare strings line by line.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC"
+}
