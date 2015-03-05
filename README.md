@@ -32,7 +32,7 @@ console.log(
 );
 ```
 
-Output
+Output:
 
 ```sh
    not modified
