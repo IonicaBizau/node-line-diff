@@ -1,14 +1,17 @@
-![Line Diff - Compare strings line by line.](http://i.imgur.com/LBR41CC.png)
+[![line-diff](http://i.imgur.com/LBR41CC.png)](#)
 
-# line-diff
+# line-diff [![Support this project][donate-now]][paypal-donations]
+
 Compare strings line by line.
 
 ## Installation
+
 ```sh
-$ npm install line-diff
+$ npm i -g line-diff
 ```
 
 ## Example
+
 ```js
 // Dependencies
 var LineDiff = require("line-diff")
@@ -32,26 +35,8 @@ console.log(
 );
 ```
 
-Output:
-
-```sh
-   not modified
- - old
- - deleted
- -
- - 12345
- + new
- + 1234
-
-   not modified
-   new
- - deleted
- -
- - 12345
- + 1234
-```
-
 ## Documentation
+
 ### `Change(oldLine, addedLine, sensitivity)`
 A private function to compare two lines.
 
@@ -89,14 +74,22 @@ Converts the lines comparison into a string.
 - **String** The stringified diff.
 
 ## How to contribute
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Commit your changes in that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message.
+Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`diffr`](https://npmjs.com/package/diffr)
 
 ## License
-See the [LICENSE](./LICENSE) file.
+
+[KINDLY][license] © [Ionică Bizău][website]
+
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
+
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md

@@ -1,6 +1,6 @@
 {
   "name": "line-diff",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Compare strings line by line.",
   "main": "lib/index.js",
   "directories": {
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "node test"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "dependencies": {
     "levdist": "^1.0.0"
   },
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-line-diff/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-line-diff"
+  "homepage": "https://github.com/IonicaBizau/node-line-diff",
+  "blah": {
+    "h_img": "http://i.imgur.com/LBR41CC.png"
+  }
 }
