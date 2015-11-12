@@ -7,7 +7,7 @@ Compare strings line by line.
 ## Installation
 
 ```sh
-$ npm i -g line-diff
+$ npm i line-diff
 ```
 
 ## Example
