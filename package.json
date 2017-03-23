@@ -1,6 +1,6 @@
 {
   "name": "line-diff",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Compare strings line by line.",
   "main": "lib/index.js",
   "directories": {
