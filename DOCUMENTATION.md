@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 A private function to compare two lines.
 
 #### Params
+
 - **String** `oldLine`: The old line value.
 - **String** `addedLine`: The new line.
 - **Number** `sensitivity`: The diff sensitivity.
@@ -20,6 +21,7 @@ A private function to compare two lines.
 Compares strings line by line.
 
 #### Params
+
 - **String|Array** `oldLines`: The old lines.
 - **String|Array** `newLines`: The new lines.
 - **Number** `sensitivity`: A number representing how many changes should be there to consider that a line was changed (default: `0`).
