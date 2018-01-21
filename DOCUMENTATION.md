@@ -2,21 +2,6 @@
 
 You can see below the API reference of this module.
 
-### `Change(oldLine, addedLine, sensitivity)`
-A private function to compare two lines.
-
-#### Params
-
-- **String** `oldLine`: The old line value.
-- **String** `addedLine`: The new line.
-- **Number** `sensitivity`: The diff sensitivity.
-
-#### Return
-- **Change** The `Change` object:
- - `_` (Array): An array with the old line and the new line.
- - `changes` (Number): How many changes are there, calculated with the levenshtein distance algorithm.
- - `modified` (Boolean): A boolean value representing if the old line was modified or not.
-
 ### `Diff(oldLines, newLines, sensitivity)`
 Compares strings line by line.
 
@@ -28,8 +13,8 @@ Compares strings line by line.
 
 #### Return
 - **Diff** The `Diff` object containing:
- - `old_lines` (Array): The old lines.
- - `new_lines` (Array): The new lines.
+ - `old_lines` (Array|String): The old lines.
+ - `new_lines` (Array|String): The new lines.
  - `sensitivity` (Number): The diff sensitivity.
  - `changes` (Array): An array of `Change` objects.
  - `toString` (Function): A function to stringify the diff.
