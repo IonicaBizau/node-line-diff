@@ -6,7 +6,6 @@ You can see below the API reference of this module.
 Compares strings line by line.
 
 #### Params
-
 - **String|Array** `oldLines`: The old lines.
 - **String|Array** `newLines`: The new lines.
 - **Number** `sensitivity`: A number representing how many changes should be there to consider that a line was changed (default: `0`).
